@@ -18,7 +18,7 @@
     activity = GoogleBuzz::Client::Activity.new
 
   To find user's public buzz
-    activity.public('googlebuzz', {})
+    activity.public('googlebuzz')
  
   To do activity search for a user
     activity.search('googlebuzz', :q => 'hackcamp')
