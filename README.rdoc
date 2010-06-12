@@ -1,0 +1,24 @@
+==Description
+
+  Wrapper for Google Buzz Api
+
+==USAGE
+
+  To search a user activity
+
+    cd to_the_downloaded_directory
+ 
+  go to ruby interpreter
+    irb
+  
+  load google_buz library
+    require 'lib/google_buzz'
+
+  Initialize client for Activity resource
+    activity = GoogleBuzz::Client::Activity.new
+
+  To find user's public buzz
+    activity.public('googlebuzz', {})
+ 
+  To do activity search for a user
+    activity.search('googlebuzz', :q => 'hackcamp')
