@@ -2,6 +2,8 @@
 
   Wrapper for Google Buzz Api
 
+  (I am currently not working on this library due to other priorities but hope to start working soon)
+
 ==USAGE
 
   To search a user activity
